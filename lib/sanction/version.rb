@@ -1,9 +1,5 @@
 module Sanction
-  module Version
-    MAJOR = 1
-    MINOR = 1
-    TINY  = 3
-
-    STRING = [MAJOR, MINOR, TINY].join('.') 
+  module VERSION
+    STRING = [MAJOR = 1,  MINOR = 1, TINY = 3, PRE = 'pre'].compact.join('.') 
   end
 end
