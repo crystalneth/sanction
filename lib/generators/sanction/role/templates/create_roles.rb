@@ -8,6 +8,7 @@ class CreateRoles < ActiveRecord::Migration
     end
     
     add_index :roles, [:principal_id, :principal_type]
+    add_index :roles, [:permissionable_id, :permissionable_type]
     add_index :roles, :name
   end
 

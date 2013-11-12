@@ -1,0 +1,7 @@
+
+
+Created role migration and config/initializers/sanction.rb
+
+Be sure to run the db:migrate task and configure your sanction.rb.
+
+
